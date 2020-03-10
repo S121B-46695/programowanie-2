@@ -1,0 +1,74 @@
+#include <cstdlib>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class pralka
+{
+    private:
+    string Nrpralki;
+    int rokprodukcji;
+    string Marka;
+    string Model;
+
+    public:
+
+    void Ustawdane(string nrpralki,int rokprodukcji,string marka, string model)
+    {
+    this->Nrpralki()=Nrpralki;
+    this->rokprodukcji()=rokprodukcji
+    this->Marka()=Marka
+    this->Model()=Model
+    }
+    void wypisznrpralki()
+    {
+        cout<< "nr pralki="<< Nrpralki() << endl;
+    }
+    void wypiszrokprodukcji()
+    {
+        cout<< "rok produkcji="<< rokprodukcji() << endl;
+    }
+    void wypiszmarka()
+    {
+        cout<< "Marka ="<< Marka() << endl;
+    }
+    void wypiszmodel()
+    {
+        cout<< "Model="<< Model() << endl;
+    }
+
+
+};
+void pralka::wypisznrpralki()
+
+
+
+    void getInfo()
+
+    cout<< "stan zasilania="<< stanzasilania() << endl;
+    cout<< "tryb prania=" << trybprania() << endl;
+    cout<< "stan proszku="<< stanproszku()<< endl;
+
+int main()
+{
+
+    system ("Pause");
+    return 0;
+}
+{
+int tempowdy;
+string stanzasilania;
+string trybprania;
+string stanproszku;
+}
+pralka p1 = new pralka();
+p1.tempowdy = 60;
+p1.stanzasilania = "ON";
+p1.stanproszku =
+p1.trybprania = "30-szybko"
+
+system.out.println(p1.tempowdy);
+system.out.println(p1.stanzasilania);
+system.out.println(p1.stanproszku);
+system.out.println(p1.trybprania);
