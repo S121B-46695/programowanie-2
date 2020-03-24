@@ -1,0 +1,63 @@
+#include <cstdlib>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class pralka
+{
+    private:
+    int rokprodukcji;
+    string Marka;
+    string Model;
+
+    public:
+
+    void Ustawdane(int rokprodukcji,string marka, string model)
+    {
+    this->rokprodukcji()=rokprodukcji
+    this->Marka()=Marka
+    this->Model()=Model
+    }
+
+    void wypiszrokprodukcji()
+    {
+        cout<< "rok produkcji="<< rokprodukcji() << endl;
+    }
+    void wypiszmarka()
+    {
+        cout<< "Marka ="<< Marka() << endl;
+    }
+    void wypiszmodel()
+    {
+        cout<< "Model="<< Model() << endl;
+    }
+
+};
+void pralka::ustawdane()
+{
+    set_rokprodukcji("1999");
+    set_marka("Amica");
+    set_model("Model_v2")
+}
+void pralka::pokazdane()
+
+    cout<< get_rokprodukcji()<<"\t";
+    cout<< get_marka()<<"\t";
+    cout<< get_model()<<"\t";
+
+int main()
+{
+    pralka p1;
+    p1.set_nazwa("pralka");
+    p1.set_rokprodukcji("1999");
+    p1.set_marka("Amica");
+    p1.set_model("Model_v2");
+    cout<< "Produkt:"<< p1.get_nazwa() << endl;
+    cout<< "Wyprodukowana w:"<< p1.get_rokprodukcji() << endl;
+    cout<< "Marki:" << p1.get_marka() << endl;
+    cout<< "Model:" << p1.get_model() << endl;
+
+    p1.ustawdane();
+    p1.pokazdane();
+
